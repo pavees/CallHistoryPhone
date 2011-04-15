@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED718FFF1351D8B6006539A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED718FFE1351D8B6006539A3 /* UIKit.framework */; };
+		ED7190011351D8B6006539A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7190001351D8B6006539A3 /* Foundation.framework */; };
+		ED7190031351D8B6006539A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7190021351D8B6006539A3 /* CoreGraphics.framework */; };
+		ED7190091351D8B6006539A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7190071351D8B6006539A3 /* InfoPlist.strings */; };
+		ED71900C1351D8B6006539A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71900B1351D8B6006539A3 /* main.m */; };
+		ED71900F1351D8B6006539A3 /* CallHistoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71900E1351D8B6006539A3 /* CallHistoryAppDelegate.m */; };
+		ED7190121351D8B7006539A3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7190101351D8B7006539A3 /* MainWindow.xib */; };
+		ED7190151351D8B7006539A3 /* CallHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7190141351D8B7006539A3 /* CallHistoryViewController.m */; };
+		ED7190181351D8B7006539A3 /* CallHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7190161351D8B7006539A3 /* CallHistoryViewController.xib */; };
+		ED71901F1351D8B7006539A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED718FFE1351D8B6006539A3 /* UIKit.framework */; };
+		ED7190201351D8B7006539A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7190001351D8B6006539A3 /* Foundation.framework */; };
+		ED7190211351D8B7006539A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7190021351D8B6006539A3 /* CoreGraphics.framework */; };
+		ED719051135673DE006539A3 /* CallHistoryClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED719050135673DE006539A3 /* CallHistoryClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7190221351D8B7006539A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED718FF11351D8B6006539A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED718FF91351D8B6006539A3;
+			remoteInfo = CallHistory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED718FFA1351D8B6006539A3 /* CallHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED718FFE1351D8B6006539A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED7190001351D8B6006539A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED7190021351D8B6006539A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED7190061351D8B6006539A3 /* CallHistory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallHistory-Info.plist"; sourceTree = "<group>"; };
+		ED7190081351D8B6006539A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED71900A1351D8B6006539A3 /* CallHistory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallHistory-Prefix.pch"; sourceTree = "<group>"; };
+		ED71900B1351D8B6006539A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED71900D1351D8B6006539A3 /* CallHistoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallHistoryAppDelegate.h; sourceTree = "<group>"; };
+		ED71900E1351D8B6006539A3 /* CallHistoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallHistoryAppDelegate.m; sourceTree = "<group>"; };
+		ED7190111351D8B7006539A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ED7190131351D8B7006539A3 /* CallHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallHistoryViewController.h; sourceTree = "<group>"; };
+		ED7190141351D8B7006539A3 /* CallHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallHistoryViewController.m; sourceTree = "<group>"; };
+		ED7190171351D8B7006539A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CallHistoryViewController.xib; sourceTree = "<group>"; };
+		ED71901E1351D8B7006539A3 /* CallHistoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallHistoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED71904F135673DE006539A3 /* CallHistoryClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallHistoryClient.h; sourceTree = "<group>"; };
+		ED719050135673DE006539A3 /* CallHistoryClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallHistoryClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED718FF71351D8B6006539A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED718FFF1351D8B6006539A3 /* UIKit.framework in Frameworks */,
+				ED7190011351D8B6006539A3 /* Foundation.framework in Frameworks */,
+				ED7190031351D8B6006539A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED71901A1351D8B7006539A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED71901F1351D8B7006539A3 /* UIKit.framework in Frameworks */,
+				ED7190201351D8B7006539A3 /* Foundation.framework in Frameworks */,
+				ED7190211351D8B7006539A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED718FEF1351D8B6006539A3 = {
+			isa = PBXGroup;
+			children = (
+				ED7190041351D8B6006539A3 /* CallHistory */,
+				ED718FFD1351D8B6006539A3 /* Frameworks */,
+				ED718FFB1351D8B6006539A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED718FFB1351D8B6006539A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED718FFA1351D8B6006539A3 /* CallHistory.app */,
+				ED71901E1351D8B7006539A3 /* CallHistoryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED718FFD1351D8B6006539A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED718FFE1351D8B6006539A3 /* UIKit.framework */,
+				ED7190001351D8B6006539A3 /* Foundation.framework */,
+				ED7190021351D8B6006539A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7190041351D8B6006539A3 /* CallHistory */ = {
+			isa = PBXGroup;
+			children = (
+				ED71900D1351D8B6006539A3 /* CallHistoryAppDelegate.h */,
+				ED71900E1351D8B6006539A3 /* CallHistoryAppDelegate.m */,
+				ED7190101351D8B7006539A3 /* MainWindow.xib */,
+				ED7190131351D8B7006539A3 /* CallHistoryViewController.h */,
+				ED7190141351D8B7006539A3 /* CallHistoryViewController.m */,
+				ED7190161351D8B7006539A3 /* CallHistoryViewController.xib */,
+				ED7190051351D8B6006539A3 /* Supporting Files */,
+				ED71904F135673DE006539A3 /* CallHistoryClient.h */,
+				ED719050135673DE006539A3 /* CallHistoryClient.m */,
+			);
+			path = CallHistory;
+			sourceTree = "<group>";
+		};
+		ED7190051351D8B6006539A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7190061351D8B6006539A3 /* CallHistory-Info.plist */,
+				ED7190071351D8B6006539A3 /* InfoPlist.strings */,
+				ED71900A1351D8B6006539A3 /* CallHistory-Prefix.pch */,
+				ED71900B1351D8B6006539A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED718FF91351D8B6006539A3 /* CallHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7190311351D8B7006539A3 /* Build configuration list for PBXNativeTarget "CallHistory" */;
+			buildPhases = (
+				ED718FF61351D8B6006539A3 /* Sources */,
+				ED718FF71351D8B6006539A3 /* Frameworks */,
+				ED718FF81351D8B6006539A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallHistory;
+			productName = CallHistory;
+			productReference = ED718FFA1351D8B6006539A3 /* CallHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED71901D1351D8B7006539A3 /* CallHistoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7190341351D8B7006539A3 /* Build configuration list for PBXNativeTarget "CallHistoryTests" */;
+			buildPhases = (
+				ED7190191351D8B7006539A3 /* Sources */,
+				ED71901A1351D8B7006539A3 /* Frameworks */,
+				ED71901B1351D8B7006539A3 /* Resources */,
+				ED71901C1351D8B7006539A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7190231351D8B7006539A3 /* PBXTargetDependency */,
+			);
+			name = CallHistoryTests;
+			productName = CallHistoryTests;
+			productReference = ED71901E1351D8B7006539A3 /* CallHistoryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED718FF11351D8B6006539A3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED718FF41351D8B6006539A3 /* Build configuration list for PBXProject "CallHistory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED718FEF1351D8B6006539A3;
+			productRefGroup = ED718FFB1351D8B6006539A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED718FF91351D8B6006539A3 /* CallHistory */,
+				ED71901D1351D8B7006539A3 /* CallHistoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED718FF81351D8B6006539A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7190091351D8B6006539A3 /* InfoPlist.strings in Resources */,
+				ED7190121351D8B7006539A3 /* MainWindow.xib in Resources */,
+				ED7190181351D8B7006539A3 /* CallHistoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED71901B1351D8B7006539A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED71901C1351D8B7006539A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED718FF61351D8B6006539A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED71900C1351D8B6006539A3 /* main.m in Sources */,
+				ED71900F1351D8B6006539A3 /* CallHistoryAppDelegate.m in Sources */,
+				ED7190151351D8B7006539A3 /* CallHistoryViewController.m in Sources */,
+				ED719051135673DE006539A3 /* CallHistoryClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7190191351D8B7006539A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7190231351D8B7006539A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED718FF91351D8B6006539A3 /* CallHistory */;
+			targetProxy = ED7190221351D8B7006539A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7190071351D8B6006539A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7190081351D8B6006539A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED7190101351D8B7006539A3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7190111351D8B7006539A3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ED7190161351D8B7006539A3 /* CallHistoryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7190171351D8B7006539A3 /* en */,
+			);
+			name = CallHistoryViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED71902F1351D8B7006539A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7190301351D8B7006539A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ED7190321351D8B7006539A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallHistory/CallHistory-Prefix.pch";
+				INFOPLIST_FILE = "CallHistory/CallHistory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED7190331351D8B7006539A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallHistory/CallHistory-Prefix.pch";
+				INFOPLIST_FILE = "CallHistory/CallHistory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED7190351351D8B7006539A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallHistory.app/CallHistory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallHistoryTests/CallHistoryTests-Prefix.pch";
+				INFOPLIST_FILE = "CallHistoryTests/CallHistoryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ED7190361351D8B7006539A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallHistory.app/CallHistory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallHistoryTests/CallHistoryTests-Prefix.pch";
+				INFOPLIST_FILE = "CallHistoryTests/CallHistoryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED718FF41351D8B6006539A3 /* Build configuration list for PBXProject "CallHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED71902F1351D8B7006539A3 /* Debug */,
+				ED7190301351D8B7006539A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7190311351D8B7006539A3 /* Build configuration list for PBXNativeTarget "CallHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7190321351D8B7006539A3 /* Debug */,
+				ED7190331351D8B7006539A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7190341351D8B7006539A3 /* Build configuration list for PBXNativeTarget "CallHistoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7190351351D8B7006539A3 /* Debug */,
+				ED7190361351D8B7006539A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED718FF11351D8B6006539A3 /* Project object */;
+}
